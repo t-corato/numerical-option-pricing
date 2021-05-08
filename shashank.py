@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from math import exp
 import matplotlib.pyplot as plt
-from github.option_pricing.american_option_pricing import AmericanOptionPricing
+from american_option_pricing import AmericanOptionPricing
 
 #def get_expected_divs(ticker, t, T, dividends):
 #    out = dividends.loc[(dividends.index >t) & (dividends.index <T) & (dividends.TICKER == ticker),:]
