@@ -1,5 +1,3 @@
-# Written by Fernando Lasso to replicate the examples in lectures at ESADE
-
 
 from math import exp
 import numpy as np
