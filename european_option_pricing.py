@@ -5,7 +5,7 @@ import logging
 import numpy as np
 import scipy.stats as stats
 
-from option_pricing.base_option_pricing import OptionPricingBase
+from base_option_pricing import OptionPricingBase
 
 logging.basicConfig(format='%(level_name)s: %(message)s', level=logging.DEBUG)
 
