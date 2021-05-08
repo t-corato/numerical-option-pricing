@@ -5,7 +5,7 @@ from random import gauss
 
 import numpy as np
 
-from github.option_pricing.base_option_pricing import OptionPricingBase
+from base_option_pricing import OptionPricingBase
 
 logging.basicConfig(format='%(level_name)s: %(message)s', level=logging.DEBUG)
 
