@@ -6,11 +6,10 @@ import quandl
 from pandas.tseries.offsets import BDay
 from pandas_datareader import data
 
-from config import QUANDL_KEY
 
 logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
 
-quandl.ApiConfig.api_key = QUANDL_KEY
+quandl.ApiConfig.api_key = "your_QUANDL_KEY"
 
 SOURCES = ['yahoo', 'morningstar']
 
